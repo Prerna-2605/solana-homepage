@@ -1,0 +1,93 @@
+:root {
+    --fs-xl: 48px;
+    --fs-l: 36px;
+    --fs-m: 24px;
+    --fs-s: 20px;
+    --fs-xs: 18px;
+
+    --fw-xl: 700;
+    --fw-l: 600;
+    --fw-m: 500;
+    --fw-s: 400;
+
+    --black: #000;
+    --black2: #33300D;
+    --white: #FFF;
+    --grey: #4D4813;
+    --red:#F4241E;
+
+    --lh-180: 180%;
+    --lh-100: 100%;
+}
+
+/* font sizes */
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-l {
+    font-size: var(--fs-l);
+}
+
+.fs-m {
+    font-size: var(--fs-m);
+}
+
+.fs-s {
+    font-size: var(--fs-s);
+}
+
+.fs-xs {
+    font-size: var(--fs-xs);
+}
+
+/* font weights */
+
+.fw-xl {
+    font-weight: var(--fw-xl);
+}
+
+.fw-l {
+    font-weight: var(--fw-l);
+}
+
+.fw-m {
+    font-weight: var(--fw-m);
+}
+
+.fw-s {
+    font-weight: var(--fw-s);
+}
+
+/* colors */
+
+.black {
+    color: var(--black);
+}
+
+.black2 {
+    color: var(--black2);
+}
+
+.white {
+    color: var(--white);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.red{
+    color: var(--red);
+}
+
+/* line height */
+
+.lh-180 {
+    line-height: var(--lh-180);
+}
+
+.lh-100 {
+    line-height: var(--lh-100);
+}

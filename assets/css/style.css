@@ -1,7 +1,146 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* commom popperties */
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-7 {
+    width: 58%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 42%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.y-center {
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-space-btw {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.scale {
+    transition: scale 150ms linear;
+}
+
+.scale:hover {
+    scale: 1.025;
+}
+
+body {
+    background-color: #F6E300;
+}
+
+/* nav */
+
+nav {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-38 {
+    gap: 38px;
+}
+
+.wallet {
+    border: 0;
+    background-color: #FFF;
+    padding: 12px 32px;
+    border-radius: 10px;
+}
+
+.menu-list li a {
+    white-space: nowrap;
+    transition: color 150ms linear;
+}
+
+/* section 1 */
+
+.background1{
+    background-image: url(/assets/images/png/section1.1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35.5vh;
+}
+
+.background2 {
+    background-image: url(/assets/images/png/section1.2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 73px;
+}
+
+.section1-head{
+    margin-bottom: 27px;
+}
+
+/* media query */
+
+@media (min-width:769px) {
+    .menu-list li a:hover {
+        color: #F4241E;
+    }
 }
