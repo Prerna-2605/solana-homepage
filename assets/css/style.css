@@ -168,6 +168,19 @@ nav {
     max-width: 220px;
 }
 
+/* section 3 */
+
+.section3{
+    margin-bottom: 115px;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 27px;   }
+
 /* media query */
 
 @media (min-width:769px) {
