@@ -86,11 +86,11 @@ body {
     background-color: #F6E300;
 }
 
-.poppins{
+.poppins {
     font-family: "Poppins", sans-serif;
 }
 
-.roboto{
+.roboto {
     font-family: "Roboto", sans-serif;
 }
 
@@ -170,7 +170,7 @@ nav {
 
 /* section 3 */
 
-.section3{
+.section3 {
     margin-bottom: 115px;
 }
 
@@ -179,7 +179,24 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 32px;
-    grid-row-gap: 27px;   }
+    grid-row-gap: 27px;
+}
+
+/* section 4 */
+
+.section4 {
+    background-color: #F4241E;
+    padding-top: 29px;
+    padding-bottom: 58px;
+}
+
+.section4-head{
+    margin-bottom: 55px;
+}
+
+.icons{
+    max-width: 1148px;
+}
 
 /* media query */
 
