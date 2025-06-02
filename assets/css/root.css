@@ -15,6 +15,7 @@
     --white: #FFF;
     --grey: #4D4813;
     --red:#F4241E;
+    --grey2:#4A4500;
 
     --lh-180: 180%;
     --lh-100: 100%;
@@ -76,6 +77,10 @@
 
 .grey {
     color: var(--grey);
+}
+
+.grey2{
+    color: var(--grey2);
 }
 
 .red{

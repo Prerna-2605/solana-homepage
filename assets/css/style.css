@@ -352,6 +352,19 @@ nav {
     margin-bottom: 88px;
 }
 
+/* section 8 */
+
+.icon-box{
+    display: flex;
+    gap: 46px;
+    margin-top: 26px;
+    margin-bottom: 53px;
+}
+
+.section8{
+    padding-bottom: 44px;
+}
+
 /* media query */
 
 @media (min-width:769px) {
