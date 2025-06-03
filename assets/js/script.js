@@ -25,3 +25,17 @@ function togglePanel(index) {
         }
     }
 }
+
+window.onscroll = function () {
+    var nav = document.querySelector("nav");
+    if (window.scrollY > 10) { // Adjust scroll trigger
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+};
+
+function menuList() {
+    document.querySelector('.menu-list').classList.toggle('show');
+    document.querySelector('.menu-icon').classList.toggle('activeNavbar');
+}
